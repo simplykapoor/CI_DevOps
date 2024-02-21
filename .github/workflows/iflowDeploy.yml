@@ -9,3 +9,4 @@ jobs:
         with:
           command: integrationArtifactDeploy
           flags: --apiServiceKey ${{ secrets.CPIAPISERVICEKEYCREDENTIALSID }} --integrationFlowId Publish_SAP_SFSF_New_Hire_Event_to_Confluent_Kafka_-_SOL
+          piper-version: 'v1.339.0'
