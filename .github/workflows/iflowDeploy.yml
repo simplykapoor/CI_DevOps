@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: integrationArtifactDeploy
-        uses: SAP/project-piper-action@main
+        uses: SAP/project-piper-action@master
         with:
           step-name: integrationArtifactDeploy
-          flags: --apiServiceKey ${{ secrets.CPIAPISERVICEKEYCREDENTIALSID }} --integrationFlowId Publish_SAP_SFSF_New_Hire_Event_to_Confluent_Kafka_-_SOL
+          flags: --apiServiceKey ${{secrets.CPIAPISERVICEKEYCREDENTIALSID}} --integrationFlowId Publish_SAP_SFSF_New_Hire_Event_to_Confluent_Kafka_-_SOL
