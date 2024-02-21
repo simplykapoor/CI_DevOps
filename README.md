@@ -1,2 +1,2 @@
 # CI_DevOps
-Applying DevOps for Cloud Intgreation artifacts
+Applying DevOps for Cloud Integration artifacts
