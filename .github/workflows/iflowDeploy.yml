@@ -9,4 +9,4 @@ jobs:
         uses: SAP/project-piper-action@main
         with:
           step-name: integrationArtifactDeploy
-          flags: --apiServiceKey ${{ secrets.CPIAPISERVICEKEYCREDENTIALSID }} --integrationFlowId PurchaseOrderHandlerDemo
+          flags: --apiServiceKey ${{ secrets.CPIAPISERVICEKEYCREDENTIALSID }} --integrationFlowId Publish_SAP_SFSF_New_Hire_Event_to_Confluent_Kafka_-_SOL
